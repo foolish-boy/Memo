@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFA20E151CCA79830022F9C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA20E141CCA79830022F9C0 /* main.m */; };
+		BFA20E181CCA79830022F9C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA20E171CCA79830022F9C0 /* AppDelegate.m */; };
+		BFA20E201CCA79830022F9C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA20E1F1CCA79830022F9C0 /* Assets.xcassets */; };
+		BFA20E231CCA79830022F9C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA20E211CCA79830022F9C0 /* LaunchScreen.storyboard */; };
+		BFA20E2C1CCA79E90022F9C0 /* JWHomeViewContronller.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA20E2B1CCA79E90022F9C0 /* JWHomeViewContronller.m */; };
+		BFB8BC6A1CCDDB730032BFDA /* JWContentVIewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB8BC691CCDDB730032BFDA /* JWContentVIewController.m */; };
+		BFB8BC701CCDDC860032BFDA /* JWMemoAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB8BC6F1CCDDC860032BFDA /* JWMemoAccount.m */; };
+		BFB8BC781CCDEA790032BFDA /* JWMemoDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB8BC771CCDEA790032BFDA /* JWMemoDetail.m */; };
+		BFB8BC7D1CCE29220032BFDA /* JWDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB8BC7C1CCE29220032BFDA /* JWDetailViewController.m */; };
+		BFB8BC801CCE430B0032BFDA /* JWNewMemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB8BC7F1CCE430B0032BFDA /* JWNewMemoViewController.m */; };
+		BFB8BC851CCFC75C0032BFDA /* MemoInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BFB8BC841CCFC75C0032BFDA /* MemoInfo.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BFA20E101CCA79830022F9C0 /* Memo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA20E141CCA79830022F9C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFA20E161CCA79830022F9C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BFA20E171CCA79830022F9C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BFA20E1F1CCA79830022F9C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFA20E221CCA79830022F9C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFA20E241CCA79830022F9C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFA20E2A1CCA79E90022F9C0 /* JWHomeViewContronller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JWHomeViewContronller.h; path = Memo/JWHomeViewContronller.h; sourceTree = "<group>"; };
+		BFA20E2B1CCA79E90022F9C0 /* JWHomeViewContronller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JWHomeViewContronller.m; path = Memo/JWHomeViewContronller.m; sourceTree = "<group>"; };
+		BFB8BC681CCDDB730032BFDA /* JWContentVIewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JWContentVIewController.h; path = Memo/JWContentVIewController.h; sourceTree = "<group>"; };
+		BFB8BC691CCDDB730032BFDA /* JWContentVIewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JWContentVIewController.m; path = Memo/JWContentVIewController.m; sourceTree = "<group>"; };
+		BFB8BC6E1CCDDC860032BFDA /* JWMemoAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JWMemoAccount.h; path = Memo/JWMemoAccount.h; sourceTree = "<group>"; };
+		BFB8BC6F1CCDDC860032BFDA /* JWMemoAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JWMemoAccount.m; path = Memo/JWMemoAccount.m; sourceTree = "<group>"; };
+		BFB8BC761CCDEA790032BFDA /* JWMemoDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWMemoDetail.h; sourceTree = "<group>"; };
+		BFB8BC771CCDEA790032BFDA /* JWMemoDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWMemoDetail.m; sourceTree = "<group>"; };
+		BFB8BC7B1CCE29220032BFDA /* JWDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWDetailViewController.h; sourceTree = "<group>"; };
+		BFB8BC7C1CCE29220032BFDA /* JWDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWDetailViewController.m; sourceTree = "<group>"; };
+		BFB8BC7E1CCE430B0032BFDA /* JWNewMemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWNewMemoViewController.h; sourceTree = "<group>"; };
+		BFB8BC7F1CCE430B0032BFDA /* JWNewMemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWNewMemoViewController.m; sourceTree = "<group>"; };
+		BFB8BC821CCE61620032BFDA /* JWNewMemoProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWNewMemoProtocol.h; sourceTree = "<group>"; };
+		BFB8BC831CCE74A40032BFDA /* JWUpdateMemoProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWUpdateMemoProtocol.h; sourceTree = "<group>"; };
+		BFB8BC841CCFC75C0032BFDA /* MemoInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MemoInfo.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFA20E0D1CCA79830022F9C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFA20E071CCA79830022F9C0 = {
+			isa = PBXGroup;
+			children = (
+				BFB8BC811CCE61450032BFDA /* Protocol */,
+				BFB8BC721CCDDCA90032BFDA /* Controller */,
+				BFA20E2E1CCA80850022F9C0 /* Model */,
+				BFA20E121CCA79830022F9C0 /* Memo */,
+				BFA20E111CCA79830022F9C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFA20E111CCA79830022F9C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFA20E101CCA79830022F9C0 /* Memo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFA20E121CCA79830022F9C0 /* Memo */ = {
+			isa = PBXGroup;
+			children = (
+				BFB8BC841CCFC75C0032BFDA /* MemoInfo.plist */,
+				BFA20E161CCA79830022F9C0 /* AppDelegate.h */,
+				BFA20E171CCA79830022F9C0 /* AppDelegate.m */,
+				BFA20E1F1CCA79830022F9C0 /* Assets.xcassets */,
+				BFA20E211CCA79830022F9C0 /* LaunchScreen.storyboard */,
+				BFA20E241CCA79830022F9C0 /* Info.plist */,
+				BFA20E131CCA79830022F9C0 /* Supporting Files */,
+			);
+			path = Memo;
+			sourceTree = "<group>";
+		};
+		BFA20E131CCA79830022F9C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFA20E141CCA79830022F9C0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFA20E2E1CCA80850022F9C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BFB8BC6E1CCDDC860032BFDA /* JWMemoAccount.h */,
+				BFB8BC6F1CCDDC860032BFDA /* JWMemoAccount.m */,
+				BFB8BC761CCDEA790032BFDA /* JWMemoDetail.h */,
+				BFB8BC771CCDEA790032BFDA /* JWMemoDetail.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BFB8BC721CCDDCA90032BFDA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BFA20E2A1CCA79E90022F9C0 /* JWHomeViewContronller.h */,
+				BFA20E2B1CCA79E90022F9C0 /* JWHomeViewContronller.m */,
+				BFB8BC681CCDDB730032BFDA /* JWContentVIewController.h */,
+				BFB8BC691CCDDB730032BFDA /* JWContentVIewController.m */,
+				BFB8BC7B1CCE29220032BFDA /* JWDetailViewController.h */,
+				BFB8BC7C1CCE29220032BFDA /* JWDetailViewController.m */,
+				BFB8BC7E1CCE430B0032BFDA /* JWNewMemoViewController.h */,
+				BFB8BC7F1CCE430B0032BFDA /* JWNewMemoViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		BFB8BC811CCE61450032BFDA /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				BFB8BC821CCE61620032BFDA /* JWNewMemoProtocol.h */,
+				BFB8BC831CCE74A40032BFDA /* JWUpdateMemoProtocol.h */,
+			);
+			name = Protocol;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFA20E0F1CCA79830022F9C0 /* Memo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA20E271CCA79830022F9C0 /* Build configuration list for PBXNativeTarget "Memo" */;
+			buildPhases = (
+				BFA20E0C1CCA79830022F9C0 /* Sources */,
+				BFA20E0D1CCA79830022F9C0 /* Frameworks */,
+				BFA20E0E1CCA79830022F9C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Memo;
+			productName = Memo;
+			productReference = BFA20E101CCA79830022F9C0 /* Memo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFA20E081CCA79830022F9C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = jasonwu;
+				TargetAttributes = {
+					BFA20E0F1CCA79830022F9C0 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = BFA20E0B1CCA79830022F9C0 /* Build configuration list for PBXProject "Memo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFA20E071CCA79830022F9C0;
+			productRefGroup = BFA20E111CCA79830022F9C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFA20E0F1CCA79830022F9C0 /* Memo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFA20E0E1CCA79830022F9C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA20E231CCA79830022F9C0 /* LaunchScreen.storyboard in Resources */,
+				BFB8BC851CCFC75C0032BFDA /* MemoInfo.plist in Resources */,
+				BFA20E201CCA79830022F9C0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFA20E0C1CCA79830022F9C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB8BC7D1CCE29220032BFDA /* JWDetailViewController.m in Sources */,
+				BFB8BC781CCDEA790032BFDA /* JWMemoDetail.m in Sources */,
+				BFB8BC701CCDDC860032BFDA /* JWMemoAccount.m in Sources */,
+				BFA20E181CCA79830022F9C0 /* AppDelegate.m in Sources */,
+				BFB8BC801CCE430B0032BFDA /* JWNewMemoViewController.m in Sources */,
+				BFA20E151CCA79830022F9C0 /* main.m in Sources */,
+				BFA20E2C1CCA79E90022F9C0 /* JWHomeViewContronller.m in Sources */,
+				BFB8BC6A1CCDDB730032BFDA /* JWContentVIewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BFA20E211CCA79830022F9C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFA20E221CCA79830022F9C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFA20E251CCA79830022F9C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BFA20E261CCA79830022F9C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFA20E281CCA79830022F9C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Memo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = instanza.Memo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BFA20E291CCA79830022F9C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Memo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = instanza.Memo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFA20E0B1CCA79830022F9C0 /* Build configuration list for PBXProject "Memo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA20E251CCA79830022F9C0 /* Debug */,
+				BFA20E261CCA79830022F9C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFA20E271CCA79830022F9C0 /* Build configuration list for PBXNativeTarget "Memo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA20E281CCA79830022F9C0 /* Debug */,
+				BFA20E291CCA79830022F9C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFA20E081CCA79830022F9C0 /* Project object */;
+}
