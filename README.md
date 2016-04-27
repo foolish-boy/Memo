@@ -1,7 +1,8 @@
 # Memo
 仿照iphone手机自带的备忘录，小白作品，敬请指正！
 
-![memo]()
+![Memo](https://github.com/foolish-boy/Memo/blob/master/Memo/memo.gif)
+
 
 需要测试的童鞋请把Memo/MemoInfo.list放在自己的沙盒目录的Document目录下。
 
